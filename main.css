@@ -1,0 +1,36 @@
+.bg-dark-orange {
+    background-color: #FF8C00;
+    /* Dark orange color */
+}
+
+.text-dark-orange {
+    color: #FF8C00;
+}
+
+.text-dark-green {
+    color: #006400;
+}
+
+.left-border {
+    border-left-style: solid;
+}
+
+.border-dark-green {
+    border-color: #006400;
+}
+.background-imaged {
+    background-image: url("./images/headerback.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
