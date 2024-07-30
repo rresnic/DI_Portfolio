@@ -3,12 +3,22 @@
     /* Dark orange color */
 }
 
+.btn.bg-dark-orange:hover{
+    background-color: #F97300;
+}
+
 .text-dark-orange {
-    color: #FF8C00;
+    color: #F97300;
 }
 
 .text-dark-green {
     color: #006400;
+}
+
+#portfolio img {
+    height: 15rem;
+    margin: 1em;
+    width: 100%;
 }
 
 .left-border {
@@ -25,12 +35,77 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+    height: 100vh
 }
 
 .hero-section {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+/* Stolen CSS */
+.header {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url('./images/headerback.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+
+#blog .card {
+    box-shadow: 0 0 20px #ccc;
+}
+
+#blog img {
+    height: 12rem;
+    width: 100%;
+}
+
+#blog .card-title {
+    color: #F97300;
+}
+
+#blog .card-body {
+    padding: 1em;
+}
+
+.team .item {
+    position: relative;
+}
+
+.team .des {
+    background: #F97300;
+    color: #fff;
     text-align: center;
+    border-bottom-left-radius: 93%;
+}
+
+.team .item:hover .des {
+    height: 100%;
+    background: #f973007d;
+    position: absolute;
+    width: 90%;
+    padding: 5em;
+    bottom: 0;
+    border-bottom-left-radius: 0;
+    transition: .3s ease-in-out;
 }
