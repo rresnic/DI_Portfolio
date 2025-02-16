@@ -1,223 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
-
-
-
-">
-    <link rel="stylesheet" href="main.css">
-    <title>Example Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yitzy Resnicoff - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .container { max-width: 800px; background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .section { padding: 40px 0; }
+        #about { background-color: #e9ecef; }
+        #portfolio { background-color: #dee2e6; }
+        #contact { background-color: #ced4da; }
+        header { background-color: #e9ecef; }
+    </style>
 </head>
-
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark-orange ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="description text-left w-50">
-                <h1 class="text-dark-orange" >Hello ,Welcome To My official Website</h1>
-                <p >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis asperiores beatae laudantium voluptates aliquam saepe, dolore, itaque et dignissimos quibusdam exercitationem aut doloremque totam nostrum, perferendis odit aspernatur rem quo?
-                    Quasi, dolorum voluptas illum nam ad nemo, reiciendis facere fuga eum incidunt maxime exercitationem! Non beatae ipsa tempora nam laboriosam quos nesciunt, cumque repudiandae esse recusandae distinctio libero quae? Officiis.
-                </p>
-                <button class="btn bg-dark-orange text-light btn-lg">See more</button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container bg-dark">
+            <a class="navbar-brand" href="#">Yitzy Resnicoff</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <div class="container">
-        <div class="row">
-            <section id="about">
-                <div class="col-md-4 offset-md-4 my-5 text-center">
-                    <h2 class="text-dark-orange ">About Me</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <img src="./images/face1.jpg" alt="" class="fluid rounded-circle">
-                        <h6 class="position">S. Web Developer</h6>
-                    </div>
-                    <div class="col-md-8 left-border border-3 border-dark-green ps-4">
-                        <h3 class="text-dark-green mt-3">D. John</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aperiam blanditiis deleniti fuga, cumque quo quaerat ad officia labore molestias totam quidem a. In quae eaque aspernatur perspiciatis ipsa! Optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quas, aspernatur sed quidem molestiae consectetur ipsam itaque asperiores ab incidunt, quia magnam et quod eos odio repellendus, accusamus vitae delectus.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="row">
-            <section id="portfolio">
-                <div class="col-md-4 offset-md-4 my-5 text-center">
-                    <h2 class="text-dark-orange ">Portfolio</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4"><img src="./images/portfolio/port1.png" alt=""></div>
-                    <div class="col-md-4"><img src="./images/portfolio/port11.png" alt=""></div>
-                    <div class="col-md-4"><img src="./images/portfolio/port13.png" alt=""></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4"><img src="./images//portfolio//port3.png" alt=""></div>
-                    <div class="col-md-4"><img src="./images//portfolio/port7.png" alt=""></div>
-                    <div class="col-md-4"><img src="./images/portfolio/port8.png" alt=""></div>
-                </div>
-            </section>
+    <div class="container my-5">
+        <header class="text-center py-5">
+            <img src="https://avatars.githubusercontent.com/u/175552734?s=400&u=2432458d24960ea3ccb178755d5ad6fabe3f1f8b&v=4" class="rounded-circle" width="150" alt="Yitzy Resnicoff">
+            <h1 class="mt-3">Yitzy Resnicoff</h1>
+            <p class="lead">Fullstack Developer</p>
+        </header>
 
-        </div>
+        <section id="about" class="section text-center">
+            <h2>About Me</h2>
+            <p>Full Stack Developer with a Computer Science background, skilled in HTML, JavaScript, PHP, MySQL, and Python. Experienced in web development, issue resolution, and integrating third-party APIs.</p>
+            <a href="/mnt/data/Yitzy-CV-20-8.docx" class="btn btn-primary" download>Download CV</a>
+        </section>
 
-        <div class="row">
-            <section id="blog">
-                <div class="col-md-4 offset-md-4 my-5 text-center">
-                    <h2 class="text-dark-orange ">Blog</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./images/blog/polit.jpg" alt="" class="card-img-top img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title">Post Title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                            </div>
-                            <div class="card-footer"><a href="" class="card-link">Read more</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./images/blog/images.jpg" alt="" class="card-img-top img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title">Post Title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                            </div>
-                            <div class="card-footer"><a href="" class="card-link">Read more</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./images/blog/imag2.jpg" alt="" class="card-img-top img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title">Post Title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                            </div>
-                            <div class="card-footer"><a href="" class="card-link">Read more</a></div>
+        <section id="portfolio" class="section text-center">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">WP Site Tracker</h5>
+                            <p class="card-text">Keep track of installed software versions on your WordPress sites. Be warned when they are out of date or vulnerable (utilizes WordFence vulnerability API). Built using Vite, Knex (PG), React, Node, JWT, BCrypt and Material UI.</p>
+                            <a href="https://github.com/rresnic/DI_WP_SITE_Tracker" target="_blank" class="btn btn-dark">View on GitHub</a>
+                            <p>You can test this software for yourself! (but give it a couple of minutes to spin up)</p>
+                            <a href="https://di-wp-site-tracker-render.onrender.com/" target="_blank" class="btn btn-dark">View live deployment via Render</a>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">School Payment System</h5>
+                            <p class="card-text">Keep track of student payments and debts. Built with Node, Express, EJS, and Knex.</p>
+                            <a href="https://github.com/rresnic/Hackaton2" target="_blank" class="btn btn-dark">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="row">
-            <section class="team">
-                <div class="col-md-4 offset-md-4 my-5 text-center">
-                    <h2 class="text-dark-orange ">Team</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 item">
-                        <img src="./images/face1.jpg" alt="" class="img-fluid">
-                        <div class="des">Dave</div>
-                        <span class="text-muted">Manager</span>
-                    </div>
-                    <div class="col-md-3 item">
-                        <img src="./images/face2.jpg" alt="" class="img-fluid">
-                        <div class="des">Sarah</div>
-                        <span class="text-muted">S. engineer</span>
-                    </div>
-                    <div class="col-md-3 item">
-                        <img src="./images/face3.jpg" alt="" class="img-fluid">
-                        <div class="des">Chris</div>
-                        <span class="text-muted">Front End Developer</span>
-                    </div>
-                    <div class="col-md-3 item">
-                        <img src="./images/face1.jpg" alt="" class="img-fluid">
-                        <div class="des">Dave's Twin Brother</div>
-                        <span class="text-muted">Team Member</span>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="contact">
-                <div class="col-md-4 offset-md-4 my-5 text-center">
-                    <h2 class="text-dark-orange ">Contact</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 text-dark-orange">
-                        <h1>Get in Touch</h1>
-                        <address>
-                        
-                            <a href='https://github.com' target="_blank"><i class="bi bi-github text-dark-orange h1"></i></a>
-                        
-                            <a href='https://twitter.com/' target="_blank"><i class="bi bi-twitter text-dark-orange h1"></i></a>
-                        
-                            <a href='https://facebook.com' target="_blank"><i class="bi bi-facebook text-dark-orange h1"></i></a>
-                        
-                        
-                        </address>
-                    </div>
-                    <div class="col-md-8">
-                        <form class="row">
-                        
-                            <div class="mb-3 col-sm-12">
-                                <label for="exampleName" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="exampleName">
-                            </div>
-
-                            <div class="mb-3 col-sm-12">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn bg-dark-orange text-light">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </div>
+        <section id="contact" class="section text-center">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:yresnicoff@gmail.com">yresnicoff@gmail.com</a></p>
+            <p>Phone: 058 440 2468</p>
+        </section>
     </div>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
